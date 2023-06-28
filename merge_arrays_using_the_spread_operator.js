@@ -1,0 +1,6 @@
+let arr1 = [1, 2, 3]
+console.log("arr1:", arr1) // arr1: [ 1, 2, 3 ]
+let arr2 = [4, 5, 6]
+console.log("arr2:", arr2) // arr2: [ 4, 5, 6 ]
+let merge_arr = [...arr1, ...arr2]
+console.log("merge_arr:", merge_arr) // merge_arr: [ 1, 2, 3, 4, 5, 6 ]
